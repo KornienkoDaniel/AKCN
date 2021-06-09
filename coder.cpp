@@ -119,7 +119,10 @@ int main()
 			}
 		}
 	}
-	g << tx;
+	if (tx != 0)
+	{
+		g << tx;
+	}
 	f.close();
 	g.close();
 	return 0;
