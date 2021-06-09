@@ -119,6 +119,7 @@ int main()
 			}
 		}
 	}
+	g << tx;
 	f.close();
 	g.close();
 	return 0;
